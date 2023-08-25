@@ -1,0 +1,32 @@
+.orders {
+  display: flex;
+  margin: 100px 20px 0px 20px;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+
+
+  .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__more {
+      display: none;
+    }
+
+    @include onDesktop {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      justify-content: space-between;
+      align-items: flex-start
+    }
+
+  }
+}
+
+.order-point {
+  display: flex;
+  justify-content: space-between;
+}

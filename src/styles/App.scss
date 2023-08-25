@@ -1,0 +1,11 @@
+@import './utils/mixins';
+@import './variables.scss';
+@import './normalize.scss';
+@import './utils/reset';
+@import '../components/Header/Header.scss';
+@import '../components/Main/Main.scss';
+@import '../components/NavMenu/NavMenu.scss';
+@import '../components/Orders/Order.scss';
+@import '../components/MoreInfo//MoreInfo.scss';
+@import '../components/Products//Products.scss';
+@import '../components/NotFaund/NotFaund.scss';

@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: $font;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font;
+}

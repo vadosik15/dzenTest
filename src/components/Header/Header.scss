@@ -1,0 +1,62 @@
+.header {
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: 1440px;
+
+  @include onTablet {
+    padding: 20px 50px;
+    height: 110px;
+    
+  }
+
+  @include onDesktop {
+    padding: 20px 140px;
+    height: 230;
+    
+  }
+
+  &__logo {
+    max-height: 100%;
+    max-width: 45%;
+
+    @include onTablet {
+      max-width: 30%;
+    }
+
+  };
+
+  &__time {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    @include onTablet {
+      font-size: 17px;
+    }
+
+    & .side-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4px;
+    };
+
+    & .time__exact-day {
+      font-size: 15px;
+      font-weight: 300;
+    };
+
+    & .time__day {
+      text-transform: uppercase;
+    };
+
+    & .clock-img {
+      height: 15px;
+      width: 15px
+    };
+  };
+
+};
