@@ -5,11 +5,11 @@ import { Order } from "../../types/Order";
 
 
 type Props = {
-  show: boolean,
-  onHide: () => void,
-  handleDelete: () => void,
-  indexOrder: Order
-}
+  show: boolean;
+  onHide: () => void;
+  handleDelete: () => void;
+  indexOrder: Order | undefined; // Allow undefined
+};
 
 
 export const MyVerticallyCenteredModal: React.FC<Props> = (props) => {
