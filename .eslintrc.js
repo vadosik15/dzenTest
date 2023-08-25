@@ -37,7 +37,6 @@ module.exports = {
   ],
   "rules": {
     "react/no-unknown-property": "off",
-    "allowImportingTsExtensions": ["warn"],
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/ban-types": "off"
   }
