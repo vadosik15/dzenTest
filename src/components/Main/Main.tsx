@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { NavMenu } from "../NavMenu/NavMenu";
 import MenuIcon from '../../images/Hamburger_icon.svg.png'

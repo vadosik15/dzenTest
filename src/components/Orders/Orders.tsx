@@ -10,7 +10,7 @@ import { CSSTransition } from 'react-transition-group';
 
 export const Orders = () => {
   const [modalShow, setModalShow] = useState(false);
-  const [indexOrder, setIndexOrder] = useState<Order>(null as any);
+  const [indexOrder, setIndexOrder] = useState<Order>(null);
   const [moreInfoArray, setMoreInfoArray] = useState<number[]>([])
 
   const dispatch = useDispatch();

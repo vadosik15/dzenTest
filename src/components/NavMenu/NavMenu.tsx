@@ -8,7 +8,7 @@ type Props = {
   handleChangeStatusMenu: () => void
 }
 
-export const NavMenu: React.FC<Props> = ({status, handleChangeStatusMenu}) => {
+export const NavMenu: React.FC<Props> = ({ handleChangeStatusMenu}) => {
   const [activeLink, setActiveLink] = useState("");
   return (
     <div className='navigation'>
